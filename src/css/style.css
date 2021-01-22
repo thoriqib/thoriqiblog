@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  background: url("https://i.pinimg.com/originals/4f/c7/d3/4fc7d3f2fa7c4bfa5a5d8fa3eb366467.jpg");
+}

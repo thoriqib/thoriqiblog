@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang</title>
+  <link rel="stylesheet" href="/public/css/tailwind.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="font-body">
+  <div class="bg-gradient-to-r from-blue-500 to-green-400 w-100">
+    <nav class="container flex mx-auto justify-between py-5 items-center">
+      <a href="/" class="font-bold text-2xl text-white">Thoriq I-Blog</a>
+      <div class="flex items-center">
+        <a href="/blog.html"
+          class="mx-4 text-lg text-white font-bold border-b-2 border-transparent hover:border-b-3 hover:border-indigo-500 transition duration-500">Blog</a>
+        <a href="/tentang.html"
+          class="mx-4 text-lg text-white font-bold border-b-2 border-transparent hover:border-b-3 hover:border-indigo-500 transition duration-500 mr-4">Tentang</a>
+        <button class="w-4 h-4 bg-gray-200 rounded-full mr-2 ml-4"></button>
+        <button class="w-4 h-4 bg-gray-800 rounded-full"></button>
+      </div>
+    </nav>
+  </div>
+  <div class="top h-64 w-full bg-blue-600 overflow-hidden relative" >
+    <img src="/public/images/fujisan.jpg" alt="Fujisan" class="bg w-full h-full object-cover object-center absolute z-0">
+    <div class="flex flex-col justify-center items-center relative h-full bg-black bg-opacity-50 text-white">
+      <img src="/public/images/thoriq.jpg" class="h-24 w-24 object-cover rounded-full">
+      <h1 class="text-2xl font-semibold">Thoriq Ibadurrohman</h1>
+    </div>
+  </div>
+  <div class="grid grid-cols-12 bg-white ">
+
+    <div class="col-span-12 md:border-solid md:border-l md:border-black md:border-opacity-25 h-full pb-12 md:col-span-10">
+      <div class="px-4 pt-4">
+        <form action="#" class="flex flex-col space-y-8">
+
+          <div>
+            <h3 class="text-2xl font-semibold">Basic Information</h3>
+            <hr>
+          </div>
+
+          <div class="form-item">
+            <label class="text-xl flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 mr-2">
+                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+              </svg>
+              <p>Full Name</p></label>
+            <input type="text" value="Thoriq Ibadurrohman" class="w-full appearance-none text-black rounded shadow py-1 px-2  mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200" disabled>
+          </div>
+
+            <div class="form-item w-full">
+              <label class="text-xl flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 mr-2">
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                </svg>
+                <p>Email</p></label>
+              <input type="text" value="thoriq312@gmail.com" class="w-full appearance-none text-black rounded shadow py-1 px-2  mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200 " disabled>
+            </div>
+
+          <div>
+            <h3 class="text-2xl font-semibold ">More About Me</h3>
+            <hr>
+          </div>
+
+          <div class="form-item w-full">
+            <label class="text-xl ">Biography</label>
+            <textarea cols="30" rows="10" class="w-full appearance-none text-black rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200" disabled>Japanese Enthusiast | Junior Programmer | Junior Statistician                                                                                                                        Pegiat hobi aneh sejak kecil. Orang paling gaasik di tongkrongan. Sedang mencari jati diri.</textarea>
+          </div>
+        </form>
+
+        <div class="mb-6">
+          <h3 class="text-2xl font-semibold">Education</h3>
+          <hr>
+        </div>
+
+        <!-- component -->
+        <div class="container bg-gray-200 mx-auto w-full h-full">
+          <div class="relative wrap overflow-hidden p-10 h-full">
+            <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
+            <!-- right timeline -->
+            <div class="mb-8 flex justify-between items-center w-full right-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-20 flex items-center order-1 bg-blue-800 shadow-xl w-8 h-8 rounded-full">
+              </div>
+              <div class="order-1 bg-indigo-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                <h3 class="mb-3 font-bold text-gray-100 text-xl">Politeknik Statistika STIS</h3>
+                <p class="text-sm leading-snug tracking-wide text-gray-200 text-opacity-100">2018 - Sekarang</p>
+              </div>
+            </div>
+        
+            <!-- left timeline -->
+            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-20 flex items-center order-1 bg-blue-800 shadow-xl w-8 h-8 rounded-full">
+              </div>
+              <div class="order-1 bg-green-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                <h3 class="mb-3 font-bold text-white text-xl">SMA Negeri 8 Bandung</h3>
+                <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">2015 - 2018</p>
+              </div>
+            </div>
+        
+            <!-- right timeline -->
+            <div class="mb-8 flex justify-between items-center w-full right-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-20 flex items-center order-1 bg-blue-800 shadow-xl w-8 h-8 rounded-full">
+              </div>
+              <div class="order-1 bg-indigo-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                <h3 class="mb-3 font-bold text-gray-100 text-xl">SMP Negeri 30 Bandung</h3>
+                <p class="text-sm leading-snug tracking-wide text-gray-200 text-opacity-100">2012 - 2015</p>
+              </div>
+            </div>
+        
+            <!-- left timeline -->
+            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-20 flex items-center order-1 bg-blue-800 shadow-xl w-8 h-8 rounded-full">
+              </div>
+              <div class="order-1 bg-green-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                <h3 class="mb-3 font-bold text-white text-xl">SD Negeri Turangga 1 Bandung</h3>
+                <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">2006 - 2012</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="px-6 py-2 bg-gray-800 text-gray-100">
+  <h6 class="text-sm text-center my-4">Follow Us</h6>
+  <div class="flex justify-center items-center">
+    <a href="https://www.facebook.com/thoriq.ibadurrahman" class="mx-2">
+      <img src="/public/images/facebook.png" alt="facebook" class="w-6 h-6">
+    </a>
+    <a href="https://www.instagram.com/thoriqib_/" class="mx-2">
+      <img src="/public/images/instagram.png" alt="instagram" class="w-6 h-6">
+    </a>
+    <a href="https://www.twitter.com/Oiq_Thoriq/" class="mx-2">
+      <img src="/public/images/twitter.png" alt="instagram" class="w-7 h-7">
+    </a>
+  </div>
+  <div class="text-sm text-center text-teal-900 mt-5 ">© Thoriq Ibadurrohman</div>
+</footer>
+</body>
+</html>
